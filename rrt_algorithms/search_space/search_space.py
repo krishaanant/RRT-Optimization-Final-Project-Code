@@ -89,3 +89,4 @@ class SearchSpace(object):
         """
         x = np.random.uniform(self.dimension_lengths[:, 0], self.dimension_lengths[:, 1])
         return tuple(x)
+
