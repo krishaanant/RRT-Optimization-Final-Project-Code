@@ -47,7 +47,7 @@ pip install numpy scipy matplotlib optuna
 (Optional) install the project as a package:
 pip install -e .
 
-Files you need to run
+**Files you need to run**
 
 You only need to run two files to reproduce the paper results:
 
@@ -59,7 +59,7 @@ Runs paired validation comparing baseline vs optimized parameters and performs s
 
 Other files (rrt_algorithms/, envgen.py, run_rrt.py) are helper modules used internally and do not need to be run directly.
 
-Baseline parameters (fixed)
+**Baseline parameters (fixed)**
 
 The baseline configuration used in ALL baseline runs is:
 
@@ -69,7 +69,7 @@ goal_bias = 0.1
 
 These values are fixed and are used for all obstacle densities.
 
-Optimized parameters (used in validation)
+**Optimized parameters (used in validation/statistical significance)**
 
 The optimized parameters were selected from the Pareto fronts produced by Optuna and are hard-coded (or manually inserted) in Statistical_Significance_Test.py.
 
@@ -97,7 +97,7 @@ goal_bias = 0.054
 
 These are the values reported in Table 1 of the paper and are the values compared against the baseline in the statistical tests.
 
-Running the optimization
+**Running the optimization**
 
 To reproduce the optimization procedure (Pareto fronts):
 
@@ -129,7 +129,7 @@ failure = 1.0
 
 The optimization output is used to select the optimized parameters listed above.
 
-Running validation and statistical testing
+**Running validation and statistical testing**
 
 To reproduce the validation results and paired t-test:
 
