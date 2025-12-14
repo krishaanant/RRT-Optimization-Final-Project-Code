@@ -212,7 +212,7 @@ def statistical_significance_test(results):
     return overall_t, overall_p
 
 def create_comprehensive_plots(results, benchmarks):
-    """Create professional evaluation plots"""
+    """Create eval plots"""
     fig, axes = plt.subplots(2, 3, figsize=(18, 12))
     fig.suptitle('RRT Parameter Optimization: Optimized vs Baseline Performance', fontsize=16, fontweight='bold')
     
@@ -272,7 +272,7 @@ def create_comprehensive_plots(results, benchmarks):
     axes[0, 2].axhline(0, color='black', linewidth=0.8)
     axes[0, 2].grid(True, alpha=0.3)
     
-    # Add value labels on bars
+    # Value labels on bars
     for bar, imp in zip(bars, cost_improvements):
         axes[0, 2].text(bar.get_x() + bar.get_width()/2, bar.get_height() + (1 if imp > 0 else -3),
                        f'{imp:+.1f}%', ha='center', va='bottom' if imp > 0 else 'top', fontweight='bold')
@@ -312,7 +312,7 @@ def create_comprehensive_plots(results, benchmarks):
     axes[1, 1].legend()
     axes[1, 1].grid(True, alpha=0.3)
     
-    # 6. Summary Statistics
+    # 6. Summary Stats
     axes[1, 2].axis('off')
     summary_text = (
         f"Optimized Parameters:\n"
@@ -385,4 +385,5 @@ if __name__ == "__main__":
     # Print detailed report
     print_detailed_report(results, benchmarks)
     
+
     print(f"\nBenchmarking completed! Results saved to 'rrt_optimization_benchmark_results.png'")
