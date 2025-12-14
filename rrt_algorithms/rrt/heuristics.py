@@ -38,3 +38,4 @@ def segment_cost(a, b):
     :return: segment_cost function between a and b
     """
     return dist_between_points(a, b)
+
