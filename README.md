@@ -26,7 +26,7 @@ GitHub
 setup.py — package setup
 
 This repository contains the code used for the project “Black Box Optimization of Planning Parameters in Robotics”. All parameters used in the paper are already hard-coded in the scripts. The instructions below explain which files to run and which parameter values are used for baseline and optimized comparisons.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Required software
 
 Python 3.x
