@@ -59,3 +59,4 @@ def steer(start, goal, d):
     d = min(d, np.linalg.norm(goal - start))
     steered_point = start + u * d
     return tuple(steered_point)
+
