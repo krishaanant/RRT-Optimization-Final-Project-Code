@@ -1,3 +1,30 @@
+## Team Contributions
+
+This project was completed collaboratively. The specific responsibilities and contributions of each team member are outlined below to clearly document the partition of work:
+
+- **Shubham**
+  - Worked on the **background section**, providing overall context and motivation for the project.
+  - Contributed to **related theory and practice**, covering foundational concepts and prior work.
+
+- **Kellan**
+  - Contributed to **related theory and practice**.
+  - Led the explanation and presentation of the **Tree-structured Parzen Estimator (TPE)** algorithm.
+
+- **Mijung**
+  - Proposed and developed the **new idea**, including the **comparison of optimization algorithms using Optuna**.
+  - Prepared and presented relevant slides associated with this contribution.
+
+- **Krisha**
+  - Implemented the core system and experiments.
+  - Documented **implementation details**, including the COCO-based setup and methodology.
+
+- **Ashutosh**
+  - Conducted the experiments and analyzed outcomes.
+  - Prepared the **experimental results** section and contributed to the conclusions.
+
+- **All Team Members**
+  - Participated in discussions, iterative refinement of the project, review of results, and final report preparation.
+
 # RRT-Optimization-Final-Project-Code
 
 Explanation of files and folders:
